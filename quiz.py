@@ -18,9 +18,8 @@ import requests
 import random
 
 # Variables
-#file_path = 'path/to/your/file.txt'  # File path of word list
-file_path = 'Documents/word_list.txt'  # File path of word list
-api_key = 'd1fb832d-d456-4a57-9e3e-4cb9917a5a6f' # API key
+file_path = 'path/to/your/file.txt'  # File path of word list
+api_key = 'put-your-api-key-here' # API key
 
 # Loads word list to numpy array
 with open(file_path, 'r') as file:
